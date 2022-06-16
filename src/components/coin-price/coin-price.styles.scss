@@ -1,0 +1,22 @@
+.btc {
+    background-color: rgb(180, 181, 180);  
+    // background-image: url('https://stepn.vanxh.dev/header.svg');  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 60px;
+    width: 50%;
+    margin: 10px auto 0 auto;
+  }
+  .btc-logo {
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  .btc-price {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
