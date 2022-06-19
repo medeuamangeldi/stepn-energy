@@ -1,20 +1,20 @@
 # Getting Started with StepN Energy
 
-## Requesting Data from API (public and free to use).
+### Requesting Data from API (public and free to use).
 ------
-##### Get the list of all walking/running records from STEPN users.
+#### Get the list of all walking/running records from STEPN users.
 ------
 GET: `https://stepn.energy/api/getAllRuns`
 
-##### Get the list of all minting scroll drop records from STEPN users.
+#### Get the list of all minting scroll drop records from STEPN users.
 ------
 GET: `https://stepn.energy/api/getAllScrolls`
 
-##### Get the last price data on GST, GMT, SOL, BNB.
+#### Get the last price data on GST, GMT, SOL, BNB.
 ------
 GET: `https://stepn.energy/api/getLastPrice`
 
-##### Add result of your walking/running session
+#### Add result of your walking/running session
 ------
 POST: `https://stepn.energy/api/postRun`
 
@@ -51,7 +51,7 @@ Options:
 + `misteryBox`: [Boolean] `true` or `false`
 + `misteryBoxLevel`: [Number] if `misteryBox: true`, use the integer from 1 to 10. Otherwise, use `null`.
 
-##### Add result of minting scroll drop
+#### Add result of minting scroll drop
 ------
 POST: `https://stepn.energy/api/postScroll`
 
