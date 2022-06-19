@@ -1,5 +1,5 @@
-## Getting Started with StepN Energy
-
+## WELCOME TO [STEPN ENERGY](https://www.stepn.energy)
+This is the ecommunity data collection of users' results of STEPN (web3 move-to-earn project). Anyone who is in the project can add their results and contribute in the project.
 ### Requesting Data from API (public and free to use).
 
 #### Get the list of all walking/running records from STEPN users.
