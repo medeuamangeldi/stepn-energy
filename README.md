@@ -36,6 +36,7 @@ Raw body example:
     "misteryBoxLevel": 10
 }
 ```
+Options:
 
 + `realm`: [String] "Solana" or "Binance". Other options will be added once the new realms will be introduced by stepn.com
 + `sneakerType`: [String] "Walker", "Jogger", "Runner" or "Trainer"
@@ -50,5 +51,23 @@ Raw body example:
 + `misteryBox`: [Boolean] `true` or `false`
 + `misteryBoxLevel`: [Number] if `misteryBox: true`, use the integer from 1 to 10. Otherwise, use `null`.
 
+##### Add result of minting scroll drop
+------
+POST: `https://stepn.energy/api/postScroll`
+
+Raw body example: 
+
+```json
+{
+    "OpenedMisteryBoxLevel": 2,
+    "ScrollDropped": true,
+    "ScrollRarity": "Common"
+}
+```
+Options:
+
++ `OpenedMisteryBoxLevel`: [Number] 1-10
++ `ScrollDropped`: [Boolean] `true` or `false`
++ `ScrollRarity`: [String] if `ScrollDropped: true`, use "Common", "Uncommon", "Rare", "Epic", or "Legendary". Otherwise, `null`.
 
 
