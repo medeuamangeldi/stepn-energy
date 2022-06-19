@@ -1,6 +1,7 @@
 # Getting Started with StepN Energy
 
 ## Requesting Data from API (public and free to use).
+### Requesting Data from API (public and free to use).
 
 ### Get the list of all walking/running records from STEPN users. Response is in JSON format.
 
