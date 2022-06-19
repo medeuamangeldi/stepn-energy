@@ -8,15 +8,15 @@
 
 ##### Get the list of all minting scroll drop records from STEPN users.
 
-GET: https://stepn.energy/api/getAllScrolls
+`GET: https://stepn.energy/api/getAllScrolls`
 
 ##### Get the last price data on GST, GMT, SOL, BNB.
 
-GET: https://stepn.energy/api/getLastPrice
+`GET: https://stepn.energy/api/getLastPrice`
 
 ##### Add result of your walking/running session
 
-POST: https://stepn.energy/api/postRun
+POST: `https://stepn.energy/api/postRun`
 
 Body example: 
 
