@@ -39,9 +39,16 @@ Raw body example:
 
 + `realm`: [String] "Solana" or "Binance". Other options will be added once the new realms will be introduced by stepn.com
 + `sneakerType`: [String] "Walker", "Jogger", "Runner" or "Trainer"
-+ `sneakerRarity`: [String] "Common", "Uncommon", "Rare", "Epic", "Legendary"
++ `sneakerRarity`: [String] "Common", "Uncommon", "Rare", "Epic", or "Legendary"
 + `sneakerLevel`: [Number] 0-30
 + `gstEarned`: [Number] Minimum 0.1
++ `energySpent`: [Number] Minimum 0.2
++ `durability`: [Number] Minimum 1
++ `eff`: [Number] Minimum 1
++ `res`: [Number] Minimum 1
++ `luck`: [Number] Minimum 1
++ `misteryBox`: [Boolean] `true` or `false`
++ `misteryBoxLevel`: [Number] if `misteryBox: true`, use the integer from 1 to 10. Otherwise, use `null`.
 
 
 
