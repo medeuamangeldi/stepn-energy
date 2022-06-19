@@ -2,5 +2,8 @@
 
 # dependencies
 /node_modules
-/back-end/routes
+back-end/*
+!back-end/models/
+!back-end/index.js
+!back-end/package.json
 .env
