@@ -2,7 +2,7 @@
 
 ## Requesting Data from API (public and free to use).
 ------
-##### Get the list of all walking/running records from STEPN users. Response is in JSON format.
+##### Get the list of all walking/running records from STEPN users.
 ------
 GET: `https://stepn.energy/api/getAllRuns`
 
@@ -37,7 +37,8 @@ Raw body example:
 }
 ```
 
-`**realm**`: "Solana" or "Binance". Other options will be added once the new realms will be introduced by stepn.com
-`**sneakerType**`: "Walker", "Jogger", "Runner" or "Trainer".
++`**realm**`: "Solana" or "Binance". Other options will be added once the new realms will be introduced by stepn.com
++`**sneakerType**`: "Walker", "Jogger", "Runner" or "Trainer".
++`**sneakerRarity**`: "Common", "Uncommon", "Rare", "Epic", "Legendary"
 
 
