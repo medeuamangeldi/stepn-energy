@@ -4,7 +4,7 @@
 
 ##### Get the list of all walking/running records from STEPN users. Response is in JSON format.
 
-GET: https://stepn.energy/api/getAllRuns
+`GET: https://stepn.energy/api/getAllRuns`
 
 ##### Get the list of all minting scroll drop records from STEPN users.
 
@@ -18,7 +18,7 @@ GET: https://stepn.energy/api/getLastPrice
 
 POST: https://stepn.energy/api/postRun
 
-Body: 
+Body example: 
 
 ```
 {
