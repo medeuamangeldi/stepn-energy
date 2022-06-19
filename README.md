@@ -22,7 +22,7 @@ Raw body example:
 
 ```json
 {
-    "realm": "Solana"
+    "realm": "Solana",
     "sneakerType": "Jogger",
     "sneakerRarity": "Uncommon",
     "sneakerLevel": 25,
